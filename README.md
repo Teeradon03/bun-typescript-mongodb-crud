@@ -34,14 +34,14 @@ bun install
 
 ### 2. รันโปรเจกต์
 
-**แบบที่ 1: รัน API บนเครื่อง **
+** แบบที่ 1: รัน API บนเครื่อง **
 
 ```bash
 docker compose up -d    # เปิด MongoDB + Mongo Express
 bun run dev             # รัน API แบบ watch mode
 ```
 
-**แบบที่ 2: รันทั้งหมดใน Docker **
+** แบบที่ 2: รันทั้งหมดใน Docker **
 
 ```bash
 docker compose --profile app up -d --build
