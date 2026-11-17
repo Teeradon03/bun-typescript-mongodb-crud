@@ -1,6 +1,6 @@
 # Bun TypeScript MongoDB CRUD
 
-This project develop by Me (aka ท่านอ๋อง ) with antigravity hydrogen model.
+This project was develop by Me (aka ท่านอ๋อง ) with antigravity hydrogen model.
 
 I just wanna practice my skills, Nothing more.
 
@@ -34,14 +34,14 @@ bun install
 
 ### 2. รันโปรเจกต์
 
-** แบบที่ 1: รัน API บนเครื่อง **
+**แบบที่ 1: รัน API บนเครื่อง**
 
 ```bash
 docker compose up -d    # เปิด MongoDB + Mongo Express
 bun run dev             # รัน API แบบ watch mode
 ```
 
-** แบบที่ 2: รันทั้งหมดใน Docker **
+**แบบที่ 2: รันทั้งหมดใน Docker**
 
 ```bash
 docker compose --profile app up -d --build
